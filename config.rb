@@ -1,14 +1,12 @@
-configure :development do
- activate :livereload
-end
+activate :bourbon
+activate :neat
+activate :directory_indexes
+activate :relative_assets
 
+set :relative_links, true
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
-
-###
-# Page options, layouts, aliases and proxies
-###
 
 # Per-page layout changes:
 #
@@ -23,6 +21,17 @@ set :images_dir, 'assets/images'
 #   page "/admin/*"
 # end
 
+configure :development do
+ activate :livereload
+end
+
+# Relative assets needed to deploy to Github Pages
 configure :build do
   activate :relative_assets
+end
+
+# Configuration options: https://github.com/karlfreeman/middleman-deploy
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.method = :git
 end
