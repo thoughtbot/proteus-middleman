@@ -142,8 +142,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  middleman (~> 3.3.5)
+  middleman
   middleman-bourbon
-  middleman-deploy (~> 0.3.0)
-  middleman-livereload (~> 3.1.0)
+  middleman-deploy
+  middleman-livereload
   middleman-neat
