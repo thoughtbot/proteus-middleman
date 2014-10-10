@@ -32,6 +32,7 @@ configure :build do
 end
 
 # Configuration options: https://github.com/karlfreeman/middleman-deploy
+# Deploys to 'origin' on a 'gh-pages' branch
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.method = :git

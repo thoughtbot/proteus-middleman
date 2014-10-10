@@ -1,9 +1,9 @@
 # Proteus - Middleman
 
 ## About Proteus
-![Proteus](http://github.com/thoughtbot/proteus) is a collection of useful
+[Proteus](http://github.com/thoughtbot/proteus) is a collection of useful
 starter kits to help you prototype faster. It follows the
-![thoughtbot styleguide](https://github.com/thoughtbot/guides) and includes our
+[thoughtbot styleguide](https://github.com/thoughtbot/guides) and includes our
 favorite front end tools.
 
 About Middleman
@@ -13,20 +13,50 @@ for projects that may end up as a Ruby on Rails app. Its minimalistic structure
 makes it very easy to work with, and includes support for deploying to Github
 Pages.
 
+Includes
+--------
+* [HAML](http://haml.info):
+  Simple template markup
+* [Coffeescript](http://coffeescript.org):
+  Write javascript with simpler syntax
+* [Sass](http://sass-lang.com):
+  CSS with superpowers
+* [Bourbon](http://bourbon.io):
+  Sass mixin library
+* [Neat](http://neat.bourbon.io):
+  Semantic grid for Sass and Bourbon
+* [Bitters](http://bitters.bourbon.io):
+  Scaffold styles, variables and structure for Bourbon projects.
+* [Middleman Live Reload](https://github.com/middleman/middleman-livereload):
+  Reloads the page when files change
+* [Middleman Deploy](https://github.com/karlfreeman/middleman-deploy):
+  Deploy your Middleman build via rsync, ftp, sftp, or git (deploys to Github Pages by default)
+
+We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interface patterns
+
 Getting Started
 ---------------
 Run the server
 ```
-bundle exec middleman
+middleman
+```
+
+Deploy to Github Pages
+```
+middleman deploy
 ```
 
 Stylesheets, images and javascript files go in the `/source/assets/` directory.
+Vendor stylesheets and javascripts should go in each of their `/vendor/` directories.
 
 Issues
 ------
 
 If you have problems, please create a
 [GitHub Issue](https://github.com/thoughtbot/proteus-middleman/issues).
+
+Have a fix or want to add a feature? Open a
+[Pull Request](https://github.com/thoughtbot/proteus-middleman/pulls)
 
 Contributing
 ------------
