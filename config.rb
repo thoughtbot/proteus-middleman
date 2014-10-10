@@ -7,6 +7,7 @@ set :relative_links, true
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
+set :layout, 'layouts/application'
 
 # Per-page layout changes:
 #
