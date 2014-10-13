@@ -55,8 +55,8 @@ Issues
 If you have problems, please create a
 [GitHub Issue](https://github.com/thoughtbot/proteus-middleman/issues).
 
-Have a fix or want to add a feature? Open a
-[Pull Request](https://github.com/thoughtbot/proteus-middleman/pulls)
+Have a fix or want to add a feature?
+[Pull Requests](https://github.com/thoughtbot/proteus-middleman/pulls) are welcome!
 
 Contributing
 ------------
@@ -76,5 +76,5 @@ License
 
 The names and logos for thoughtbot are trademarks of thoughtbot, inc.
 
-Carnival is Copyright © 2014 thoughtbot, inc. It is free software, and may be
+Proteus Middleman is Copyright © 2014 thoughtbot, inc. It is free software, and may be
 redistributed under the terms specified in the LICENSE file.
