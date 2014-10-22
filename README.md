@@ -46,7 +46,7 @@ Deploy to Github Pages
 middleman deploy
 ```
 
-Stylesheets, images and javascript files go in the `/source/assets/` directory.
+Stylesheets, fonts, images, and javascript files go in the `/source/assets/` directory.
 Vendor stylesheets and javascripts should go in each of their `/vendor/` directories.
 
 Issues
