@@ -1,7 +1,7 @@
-activate :bourbon
-activate :neat
+require "extensions/views"
+
+activate :views
 activate :directory_indexes
-activate :relative_assets
 
 set :relative_links, true
 set :css_dir, 'assets/stylesheets'

@@ -61,8 +61,6 @@ GEM
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.4.0, < 4.0)
       uglifier (~> 2.5)
-    middleman-bourbon (0.0.2)
-      bourbon (>= 2.1.0)
     middleman-core (3.3.6)
       activesupport (~> 4.1.0)
       bundler (~> 1.1)
@@ -84,9 +82,6 @@ GEM
       middleman-core (>= 3.0.2)
       multi_json (~> 1.0)
       rack-livereload
-    middleman-neat (0.0.4)
-      bourbon (>= 2.1)
-      neat (>= 1.1.0)
     middleman-sprockets (3.3.10)
       middleman-core (~> 3.3)
       sprockets (~> 2.12.1)
@@ -142,8 +137,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bourbon
   middleman
-  middleman-bourbon
   middleman-deploy
   middleman-livereload
-  middleman-neat
+  neat

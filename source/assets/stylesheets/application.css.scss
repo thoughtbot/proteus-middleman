@@ -1,9 +1,7 @@
 // Vendor
 @import "vendor/normalize";
-
-// Bourbon Suite
 @import "bourbon";
 @import "neat";
-@import "base/base";
 
+@import "base/base";
 @import "global";
