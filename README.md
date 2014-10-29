@@ -36,6 +36,12 @@ We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interfac
 
 Getting Started
 ---------------
+Set up your project in your code directory
+```
+git clone --bare git@github.com:thoughtbot/proteus-middleman.git [your-project-name]
+bundle install
+```
+
 Run the server
 ```
 middleman
@@ -45,6 +51,7 @@ Deploy to Github Pages
 ```
 middleman deploy
 ```
+Or clone the repo and use these handy shortcuts: `bin/setup`, `bin/server` and `bin/deploy`
 
 Stylesheets, fonts, images, and javascript files go in the `/source/assets/` directory.
 Vendor stylesheets and javascripts should go in each of their `/vendor/` directories.

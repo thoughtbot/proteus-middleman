@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+# Run this script immediately after cloning the codebase.
+
+# Set up Ruby dependencies via Bundler
+bundle install
