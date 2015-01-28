@@ -2,20 +2,26 @@
 
 # Run this script immediately after cloning the codebase.
 
+# Squash all commits to get a clean slate
+git update-ref -d refs/heads/master
+git commit -am "New Proteus-Middleman project"
+
 # Make sure Bundler is installed
-if [ `gem query -i -n bundler` = "false" ]; then
-  echo -e "Installing Bundler..."
+if [ "$(gem query -i -n bundler)" = "false" ]; then
+  echo "Installing Bundler..."
   gem install bundler
 fi
 
 # Set up Ruby dependencies via Bundler
-echo -e "Installing Dependencies..."
+echo "Installing Dependencies..."
 bundle install
 
 # Remove Git remote if it's still the proteus-middleman repo
-if [ `git config --get remote.origin.url` = "git@github.com:thoughtbot/proteus-middleman.git" ]; then
-  git remote rm origin
-  echo -e "Resetting Git remote. What is your repo url?"
+if [ "$(git config --get remote.origin.url)" = "git@github.com:thoughtbot/proteus-middleman.git" ]; then
+  echo "What is your repo url? Enter URL or leave blank"
   read url
-  git remote add origin $url
+  if [ -z "$url" ]; then
+    git remote rm origin
+    git remote add origin "$url"
+  fi
 fi
