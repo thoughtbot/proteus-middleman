@@ -32,7 +32,7 @@ Includes
 * [Middleman Deploy](https://github.com/karlfreeman/middleman-deploy):
   Deploy your Middleman build via rsync, ftp, sftp, or git (deploys to Github Pages by default)
 
-We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interface patterns
+We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interface patterns.
 
 Getting Started
 ---------------
@@ -59,7 +59,7 @@ Deploy to Github Pages
 middleman deploy
 ```
 
-Or install the [Proteus gem](https://github.com/thoughtbot/proteus) and enjoy some shortcuts. 
+Or install the [Proteus gem](https://github.com/thoughtbot/proteus) and enjoy some shortcuts.
 
 Directories
 ------
@@ -80,7 +80,7 @@ Have a fix or want to add a feature?
 Credits
 -------
 
-![thoughtbot](http://thoughtbot.com/logo.png)
+[![thoughtbot](http://images.thoughtbot.com/bourbon/thoughtbot-logo.svg)](http://thoughtbot.com)
 
 This application is maintained and funded by [thoughtbot, inc](http://thoughtbot.com/community)
 
@@ -91,5 +91,5 @@ License
 
 The names and logos for thoughtbot are trademarks of thoughtbot, inc.
 
-Proteus Middleman is Copyright © 2014 thoughtbot, inc. It is free software, and may be
+Proteus Middleman is Copyright © 2014–2015 thoughtbot, inc. It is free software, and may be
 redistributed under the terms specified in the LICENSE file.
