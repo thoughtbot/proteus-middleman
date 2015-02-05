@@ -2,10 +2,6 @@
 
 # Run this script immediately after cloning the codebase.
 
-# Squash all commits to get a clean slate
-git update-ref -d refs/heads/master
-git commit -am "New Proteus-Middleman project"
-
 # Make sure Bundler is installed
 if [ "$(gem query -i -n bundler)" = "false" ]; then
   echo "Installing Bundler..."
