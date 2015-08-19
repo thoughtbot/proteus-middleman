@@ -39,7 +39,7 @@ We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interfac
 
 Set up your project in your code directory
 ```
-git clone git@github.com:thoughtbot/proteus-middleman.git your-project-folder
+git clone https://github.com/thoughtbot/proteus-middleman.git your-project-folder
 cd your-project-folder
 git remote rm origin
 git remote add origin your-git-url
