@@ -4,9 +4,9 @@ body {
 }
 
 .delete-me {
-  @include align-items(center);
-  @include display(flex);
-  @include justify-content(center);
+  align-items: center;
+  display: flex;
+  justify-content: center;
   height: 100vh;
 
   .container {
