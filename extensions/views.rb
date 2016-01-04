@@ -1,5 +1,5 @@
 class Middleman::Extensions::ViewsDirectory < Middleman::Extension
-  register :views
+  ::Middleman::Extensions.register(:views, self)
   option   :views_dir, 'views', 'Directory for site views'
 
   def manipulate_resource_list resources
