@@ -1,9 +1,8 @@
-# Proteus - Middleman
+# thoughtbot Middleman Starter
 
-## About Proteus
+## About
 
-[Proteus](http://github.com/thoughtbot/proteus) is a collection of useful
-starter kits to help you prototype faster. It follows the
+This starter kit for Middleman follows the
 [thoughtbot styleguide](https://github.com/thoughtbot/guides) and includes our
 favorite front end tools.
 
@@ -33,7 +32,8 @@ Pages.
 * [Middleman Deploy](https://github.com/karlfreeman/middleman-deploy):
   Deploy your Middleman build via rsync, ftp, sftp, or git (deploys to Github Pages by default)
 
-We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interface patterns.
+We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interface patterns and [Proteus](http://github.com/thoughtbot/proteus) for a collection of useful
+starter kits to help you prototype faster.
 
 ## Getting Started
 
@@ -79,8 +79,8 @@ Have a fix or want to add a feature?
 
 [![thoughtbot](http://images.thoughtbot.com/bourbon/thoughtbot-logo.svg)](http://thoughtbot.com)
 
-Proteus Middleman is maintained and funded by [thoughtbot, inc](http://thoughtbot.com). Thank you to all of [the contributors](https://github.com/thoughtbot/proteus-middleman/contributors)!
+thoughtbot Middleman Starter is maintained and funded by [thoughtbot, inc](http://thoughtbot.com). Thank you to all of [the contributors](https://github.com/thoughtbot/proteus-middleman/contributors)!
 
 ## License
 
-Copyright © 2014–2015 [thoughtbot, inc](http://thoughtbot.com). Proteus Middleman is free software, and may be redistributed under the terms specified in the [license](LICENSE.md).
+Copyright © 2014–2015 [thoughtbot, inc](http://thoughtbot.com). thoughtbot Middleman Starter is free software, and may be redistributed under the terms specified in the [license](https://github.com/thoughtbot/bourbon/blob/master/LICENSE.md).

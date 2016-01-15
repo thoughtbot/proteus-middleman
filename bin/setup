@@ -12,7 +12,7 @@ fi
 echo "Installing Dependencies..."
 bundle install
 
-# Remove Git remote if it's still the proteus-middleman repo
+# Remove Git remote if it's still the default repo
 if [ "$(git config --get remote.origin.url)" = "git@github.com:thoughtbot/proteus-middleman.git" ]; then
   echo "What is your repo url? Enter URL or leave blank"
   read url
