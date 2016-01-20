@@ -52,12 +52,12 @@ bundle install
 
 Run the server
 ```
-middleman
+bundle exec middleman
 ```
 
 Deploy to Github Pages
 ```
-middleman deploy
+bundle exec middleman deploy
 ```
 
 Or install the [Proteus gem](https://github.com/thoughtbot/proteus) and enjoy some shortcuts.
