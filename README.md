@@ -19,7 +19,7 @@ Pages.
   Simple template markup
 * [Coffeescript](http://coffeescript.org):
   Write javascript with simpler syntax
-* [Sass](http://sass-lang.com):
+* [Sass (LibSass)](http://sass-lang.com):
   CSS with superpowers
 * [Bourbon](http://bourbon.io):
   Sass mixin library
