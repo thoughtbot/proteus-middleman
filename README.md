@@ -1,6 +1,9 @@
 # thoughtbot Middleman Starter
 
-**Note:** This project is no longer being actively maintained.
+**Note:** This project is no longer being actively maintained. Check out our
+[Middleman Template], instead.
+
+[Middleman Template]: https://github.com/thoughtbot/middleman-template
 
 ## About
 
